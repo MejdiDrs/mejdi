@@ -1,9 +1,9 @@
 on: push
 
-name: mejdi website on push
+name: Deploy website on push
 jobs:
   web-deploy:
-    name: mejdi
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
@@ -13,6 +13,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: files.000webhost.com
-        username: projetnfa021
-        password: JeJbSwyxH!!$X^4B#qBF
-        server-dir : public_html/
+        username: mejdi
+        password: AZE123AZE
+        server-dir: public_html/
