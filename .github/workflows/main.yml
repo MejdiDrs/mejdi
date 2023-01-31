@@ -12,7 +12,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
-        server: files.000webhost.com
-        username: mejdi.drs2
-        password: AZE123AZE
+        server: ${{ secrets.SERVNAMEE }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.COMLONSOUHAITE }}
         server-dir: public_html/
