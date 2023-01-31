@@ -13,6 +13,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ${{ secrets.SERVNAMEE }}
-        username: ${{ secrets.FTP_USERNAME }}
+        username: ${{ secrets.USERNAME }}
         password: ${{ secrets.COMLONSOUHAITE }}
         server-dir: public_html/
